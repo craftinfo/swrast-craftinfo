@@ -91,7 +91,7 @@ install_main()
    # mkdir -p "${PREFIX}/include/async"
    # exekutor cp async/async*.h "${PREFIX}/include/async"#
 
-   eval_exekutor MULLE_DISPENSE_SEARCH_LIB_PATH=main/libraster.a \
+   eval_exekutor MULLE_DISPENSE_SEARCH_LIB_PATH=main/libswrast.a \
          mulle-dispense \
             ${MULLE_TECHNICAL_FLAGS} \
             ${MULLE_DISPENSE_FLAGS} \
